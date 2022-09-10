@@ -1,0 +1,131 @@
+.titulo-principal {
+  padding-left: 30px;
+}
+.Nombre {
+  text-align: center;
+  font-size: 27px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+#banner {
+  width: 100%;
+}
+
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 130px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  position: auto;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  font-family: Verdana;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: overline underline;
+}
+
+.principal {
+  background: #cccccc;
+  padding: 20px;
+}
+.principal h2 {
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+em strong {
+  color: rgb(59, 49, 49);
+}
+em strong:hover {
+  color: red;
+}
+
+#mision {
+  font-size: 20px;
+}
+.tituloPrincipal {
+  text-align: center;
+  font-size: 25px;
+  width: bold;
+  text-transform: uppercase;
+}
+.tituloPrincipal:hover {
+  color: darkgreen;
+  font-size: 30px;
+}
+
+.diferenciales {
+  background-position: auto;
+  background: #ffffff;
+  padding: 30px;
+}
+.Items1 {
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+
+  /* vertical-align: top;  */
+}
+.Items1 li {
+  display: inline-block;
+  text-align: center;
+  width: bold;
+  width: 21%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.Items1 li:hover {
+  color: #c78c19;
+  font-size: 25px;
+  width: bold;
+}
+
+.imagenDiferenciales {
+  width: auto;
+}
+footer {
+  text-align: center;
+  background: url(imagenes/bg.jpg);
+  padding: 40px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px;
+}
