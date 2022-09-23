@@ -1,103 +1,114 @@
 header {
-    background-color: #BBBBBB;
-    padding: 20px 0;
+  width: 940px;
+  margin: 0 auto;
+  background-color: #bbbbbb;
+  padding: 30px;
 }
 
-.caja{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
 }
 
-nav{
-    position: absolute;
-    top:80px;
-    right: 0;
+nav {
+  position: absolute;
+  top: 80px;
+  right: 0;
 }
 
-nav li{
-    display: inline;
-    position: auto;
-    margin: 0 0 0 15px;
+nav li {
+  display: inline;
+  position: auto;
+  margin: 0 0 0 15px;
 }
 
-nav a{
-    font-family: Verdana;
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+nav a {
+  font-family: Verdana;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 2px #000000;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 10px rgb(52, 36, 36);
 }
 
-nav a:hover{
-    color: #c78c19;
-    text-decoration: overline underline;
+nav a:hover {
+  color: #c78c19;
+  text-decoration: overline underline;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;    
+main {
+  width: 940px;
+  margin: 0 auto;
+  background: linear-gradient(#bbbbbb, #ffffff, #000000);
+  padding: 30px;
 }
 
-form{
-    margin: 40px 0;
+form {
+  margin: 40px 0;
 }
 
-form label, form legend{
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
 }
 
-.input-padron{
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
+.input-padron {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
 }
 
-.checkbox{
-    margin:20px 0;
+.checkbox {
+  margin: 20px 0;
 }
-footer{
-    text-align: center;
-    background: url(imagenes/bg.jpg);
-    padding:40px;
+footer {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  background: url(imagenes/bg.jpg);
+  padding: 30px;
 }
 
-.copyright{
-    color:#FFFFFF;
-    font-size: 13px;
-    margin:20px;
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px;
 }
-.enviar{
-    width: 30%;
-    padding: 10px 15px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background:orange;
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor: pointer;
+.enviar {
+  width: 30%;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: orange;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
 }
-.enviar:hover{
-    background: rgb(44, 42, 9);
-    transform: scale(1.2); /* lo agregamos  mira como se mueve    rotate(5deg);  */
-    
+.enviar:hover {
+  background: rgb(44, 42, 9);
+  transform: scale(
+    1.2
+  ); /* lo agregamos  mira como se mueve    rotate(5deg);  */
 }
-table{
-    margin: 40px 40px;
+table {
+  margin: 40px 40px;
 }
-thead{
-    background: #BBBBBB;
-    color: white;
-    font-weight: bold;
-    
+thead {
+  background: #bbbbbb;
+  color: white;
+  font-weight: bold;
 }
-td, th{
-    border: 1px solid #000000;
-    padding: 8px 5px;
+td,
+th {
+  border: 1px solid #000000;
+  padding: 8px 5px;
 }

@@ -1,11 +1,13 @@
-.titulo-principal {
-  padding-left: 30px;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 .Nombre {
   text-align: center;
   font-size: 27px;
   font-family: Verdana;
   font-weight: bold;
+  box-shadow: 5px 5px 5px rgb(59, 49, 49), -5px -5px 5px rgb(59, 49, 49);
+  /* box-shadow: 10px 10px 20px 10px rgb(59, 49, 49); */
 }
 
 #banner {
@@ -13,8 +15,10 @@
 }
 
 header {
+  width: 940px;
+  margin: 0 auto;
   background-color: #bbbbbb;
-  padding: 20px 0;
+  padding: 30px;
 }
 
 .caja {
@@ -40,18 +44,29 @@ nav a {
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
   text-decoration: none;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 10px rgb(52, 36, 36);
 }
 
 nav a:hover {
   color: #c78c19;
   text-decoration: overline underline;
 }
+main {
+  width: 940px;
+  margin: 0 auto;
+  background: linear-gradient(#bbbbbb, #ffffff, #000000);
+  padding: 30px;
+}
 
 .principal {
-  background: #cccccc;
-  padding: 20px;
+  width: 940px;
+  margin: 0 auto;
+  padding: 30px;
+  /* background: #322408; */
 }
 .principal h2 {
   text-transform: uppercase;
@@ -71,35 +86,52 @@ em strong:hover {
 }
 
 #mision {
+  margin: 0 20px;
   font-size: 20px;
 }
 .tituloPrincipal {
   text-align: center;
-  font-size: 25px;
-  width: bold;
+  font-size: 2em;
   text-transform: uppercase;
+  margin: 0 0 1em;
 }
+/* .tituloPrincipal::first-letter {
+  font-weight: bold;
+} */
 .tituloPrincipal:hover {
-  color: darkgreen;
+  color: rgb(43, 18, 146);
   font-size: 30px;
+}
+.principal p {
+  margin: 0 0 1em;
+}
+.itfip {
+  width: 150px;
+  float: left;
+  margin: 0 20px 10px 0;
+  box-shadow: 10px 10px 20px 10px rgb(59, 49, 49);
+}
+.principal strong {
+  font-weight: bold;
+}
+.principal em {
+  font-style: italic;
 }
 
 .diferenciales {
-  background-position: auto;
-  background: #ffffff;
+  width: 940px;
+  margin: 0 auto;
+  /* background: #a44545; */
   padding: 30px;
 }
 .Items1 {
-  width: 940px;
   margin: 0 auto;
   padding: 20px;
-
-  /* vertical-align: top;  */
 }
 .Items1 li {
   display: inline-block;
   text-align: center;
-  width: bold;
+  width: initial;
   width: 21%;
   vertical-align: top;
   margin: 0 1.5%;
@@ -107,25 +139,53 @@ em strong:hover {
   box-sizing: border-box;
   border: 2px solid #000000;
   border-radius: 10px;
+  box-shadow: inset 0 0 20px rgb(59, 49, 49);
+}
+.Items1 li::first-letter {
+  font-weight: bold;
+}
+.Items1 li:before {
+  content: "✰";
 }
 
+/* sentencia para dejar un item en una posicion especial  
+ .Items1:nth-child{
+  font-weight: bold;
+} */
+
 .Items1 li:hover {
-  color: #c78c19;
+  color: #322408;
   font-size: 25px;
   width: bold;
+}
+.mapa {
+  width: 940px;
+  margin: 0 auto;
+  /* background: #3a1879; */
+  padding: 30px;
+}
+.mapa p {
+  margin: 0 0 2em 0;
+}
+
+.video {
+  width: 560px;
+  margin: 1em auto;
 }
 
 .imagenDiferenciales {
   width: auto;
 }
 footer {
+  width: 940px;
+  margin: 0 auto;
   text-align: center;
   background: url(imagenes/bg.jpg);
-  padding: 40px;
+  padding: 30px;
 }
 
 .copyright {
-  color: #ffffff;
+  color: rgba(240, 232, 9, 0.868);
   font-size: 13px;
   margin: 20px;
 }
